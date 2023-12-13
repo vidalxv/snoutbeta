@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="_124">124</string>
+    <string name="_150_3k">150,3k</string>
+    <string name="_15_4k">15,4k</string>
+    <string name="app_name">snout</string>
+    <string name="comunidade">Comunidade</string>
+    <string name="description">Descrição</string>
+    <string name="editar_perfil">Editar perfil</string>
+    <string name="inicio">Inicio</string>
+    <string name="perfil">Perfil</string>
+    <string name="pesquisar">Pesquisar</string>
+    <string name="seguidores">Seguidores</string>
+    <string name="seguindo">Seguindo</string>
+    <string name="todo">TODO</string>
+    <string name="user_name">\@nomedeusuario</string>
+    <string name="Pesquisar" />
+    <string name="menu_camera" />
+    <string name="menu_comunidade" />
+    <string name="menu_perfil" />
+    <string name="menu_pesquisar" />
+    <string name="menu_inicio" />
+</resources>

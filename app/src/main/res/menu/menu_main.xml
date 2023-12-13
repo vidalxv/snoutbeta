@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/home_line" android:id="@+id/menu_inicio" android:title="@string/inicio" />
+    <item android:icon="@drawable/search_line" android:id="@+id/menu_pesquisar" android:title="@string/pesquisar" />
+    <item android:icon="@drawable/add_btn" android:id="@+id/menu_camera" android:title="@string/menu_camera" />
+    <item android:icon="@drawable/discuss_line" android:id="@+id/menu_comunidade" android:title="@string/comunidade" />
+    <item android:icon="@drawable/user_line" android:id="@+id/menu_perfil" android:title="@string/perfil" />
+</menu>

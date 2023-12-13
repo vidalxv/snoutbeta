@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff0e0e0e">
+
+    <TextView
+        android:id="@+id/pesquisaView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Você pode gostar:"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="24dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="409.0dip"
+        android:layout_height="446.0dip"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@+id/pesquisaView"
+        tools:layout_editor_absoluteX="1dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0sp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/pesquisa0"
+                android:layout_width="369.0dip"
+                android:layout_height="43.0dip"
+                android:layout_marginTop="4.0dip"
+                android:backgroundTint="#ff800348"
+                android:text="cachorro brincando"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/pesquisa1"
+                android:layout_width="369.0dip"
+                android:layout_height="43.0dip"
+                android:backgroundTint="#ff60033e"
+                android:text="gatos trabalhando"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/pesquisa2"
+                android:layout_width="369.0dip"
+                android:layout_height="43.0dip"
+                android:layout_marginTop="1.0dip"
+                android:backgroundTint="#ff2e0121"
+                android:text="cachorro chupetinha"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/pesquisa3"
+                android:layout_width="369.0dip"
+                android:layout_height="43.0dip"
+                android:backgroundTint="#ff191919"
+                android:text="shitzu"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/pesquisa4"
+                android:layout_width="369.0dip"
+                android:layout_height="43.0dip"
+                android:backgroundTint="#ff191919"
+                android:text="gato caminhoneiro"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/pesquisa5"
+                android:layout_width="369.0dip"
+                android:layout_height="43.0dip"
+                android:backgroundTint="#ff191919"
+                android:text="cachorro do piaui"
+                android:textAlignment="viewStart"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="#ff0e0e0e"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="306.0dip"
+        android:layout_height="47.0dip"
+        android:layout_marginStart="2.0dip"
+        app:boxBackgroundColor="#ff373434"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="307.0dip"
+            android:layout_height="fill_parent"
+            android:hint="@string/Pesquisar" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:name="com.snout.beta.RecomendacaoFragment"
+        android:id="@+id/feedpesquisa"
+        android:layout_width="411.0dip"
+        android:layout_height="628.0dip"
+        android:layout_marginTop="8.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textInputLayout" />
+
+    <ImageButton
+        android:id="@+id/btnpesquisar"
+        android:layout_width="53.0dip"
+        android:layout_height="48.0dip"
+        android:layout_marginTop="44.0dip"
+        android:src="@drawable/search_line"
+        android:layout_marginStart="12.0dip"
+        android:backgroundTint="#ffff0066"
+        app:layout_constraintStart_toEndOf="@id/textInputLayout"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
